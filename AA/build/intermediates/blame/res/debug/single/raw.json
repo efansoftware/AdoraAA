@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\raw\\db_clean_1_2_0.sql",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\raw\\db_clean_1_2_0.sql"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\raw\\db_update_1_1_0.sql",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\raw\\db_update_1_1_0.sql"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\raw\\db_init.sql",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\raw\\db_init.sql"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\raw\\db_update_1_1_2.sql",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\raw\\db_update_1_1_2.sql"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\raw\\db_create.sql",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\raw\\db_create.sql"
+    }
+]

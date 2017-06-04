@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="about_msg">
+        <item>Adora AA: </item>
+        <item>Acupuncture Assistant (version II-1.5.0)</item>
+        <item/>
+        <item>【Function】: Quick &amp; easy query from hundreds of acupoints standardized by WHO.</item> 
+        <item/>
+        <item>【Notes】: Contents come from internet (including WHO), for reference / education only.</item>
+        <item/>
+        <item>5/5/2013</item>
+    </array>
+    <color name="hintTextColor">#C0C0C0</color>
+    <color name="tabHeadColor">#008000</color>
+    <color name="tabLineColor">#808080</color>
+    <declare-styleable name="com.admob.android.ads.AdView"><attr format="color" name="backgroundColor"/><attr format="color" name="primaryTextColor"/><attr format="color" name="secondaryTextColor"/><attr format="string" name="keywords"/><attr format="integer" name="refreshInterval"/></declare-styleable>
+    <string name="SQL_LOAD_ACUPOINT_FOR_ADAPTER">
+select ORDER_NUM, NAME, CHINESE_NAME, CODE, ALIAS 
+  from ACUPOINT 
+ order by CODE, NAME 
+  </string>
+    <string name="SQL_LOAD_ACUPOINT_FOR_ADAPTER_BY_CHANNEL">
+select ORDER_NUM, NAME, CHINESE_NAME, CODE, ALIAS 
+  from ACUPOINT 
+ where CHANNEL_ID = ?
+ order by ORDER_NUM 
+  </string>
+    <string name="SQL_LOAD_MERIDIAN_CHANNEL_FOR_ADAPTER">
+select PK_ID, NAME, CHINESE_NAME, CODE, null 
+  from MERIDIAN_CHANNEL 
+ order by CODE, NAME 
+  </string>
+    <string name="SQL_QUERY_ACUPOINT_BY_ORDER_NUM">
+select A.PICTURE, A.NAME, A.CHINESE_NAME, A.CODE, A.ALIAS, M.PICTURE, A.DESCRIPTION, A.DESCRIPTION_ZH 
+  from ACUPOINT A, MERIDIAN_CHANNEL M 
+ where A.ORDER_NUM = ?
+   and M.PK_ID = A.CHANNEL_ID  
+  </string>
+    <string formatted="false" name="SQL_QUERY_ACUPOINT_BY_SYMP">
+select A.PICTURE, A.NAME, A.CHINESE_NAME, A.CODE, A.ALIAS, A.DESCRIPTION, A.DESCRIPTION_ZH 
+  from ACUPOINT A 
+ where (A.DESCRIPTION | A.DESCRIPTION_ZH) like \'%?%\'
+  </string>
+    <string name="acupoint_detail_edit_confirm_update">Confirm Save?</string>
+    <string name="acupoint_detail_tab_desc_indicator">Notes</string>
+    <string name="acupoint_detail_tab_img_indicator">Point</string>
+    <string name="acupoint_detail_tab_img_indicator_channel">Meridian</string>
+    <string name="acupoint_name_label">Acupoint: </string>
+    <string name="acupoint_query_title">Acupoint Query</string>
+    <string name="acupoint_selection_reminder">Please Select Acupoint</string>
+    <string name="ad_keywords">Acupuncture TCM Android Health Reference WHO</string>
+    <string name="alert_dialog_cancel">Not Sure</string>
+    <string name="alert_dialog_confirm_title">Please confirm: </string>
+    <string name="alert_dialog_ok">Confirm</string>
+    <string name="app_name">Adora AA: Acupuncture Assistant</string>
+    <string name="btn_label_install_aa_data">Go Install AA Data</string>
+    <string name="button_Search">Search</string>
+    <string name="button_SearchByChannel">Search by Channel</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_market">Market</string>
+    <string name="button_next">></string>
+    <string name="button_ok">OK</string>
+    <string name="button_pre">&lt;</string>
+    <string name="button_save">Save</string>
+    <string name="constant_acupoint_order_num_max">361</string>
+    <string name="credits_tip">Most contents come from following web sites, which details better to be viewed in normal PC screen.</string>
+    <string name="efan_copy_right">2009~~2017</string>
+    <string name="efan_logo">eFANSoftware</string>
+    <string name="efan_support">License: http://www.apache.org/licenses/LICENSE-2.0</string>
+    <string name="global_image_tip">
+        Please do NOT scroll below! 
+        Click gallery icon above to go back to reselect location instead...
+    </string>
+    <string name="global_image_tip0">Click where you want to enlarge...</string>
+    <string name="menu_item_about">About...</string>
+    <string name="menu_item_acupoint">Acupoint</string>
+    <string name="menu_item_credits">Credits</string>
+    <string name="menu_item_full_web">AcuMapper</string>
+    <string name="menu_item_home">Home</string>
+    <string name="menu_item_patient">Patient</string>
+    <string name="menu_item_relax">Relax</string>
+    <string name="menu_item_statistics">Statistics</string>
+    <string name="menu_item_wallcharts">Wall Charts</string>
+    <string name="meridian_type_label">Meridian Channel: </string>
+    <string name="meridian_type_prompt">Please Select Meridian Channel: </string>
+    <string name="name_code_hint">(name or code)</string>
+    <string name="notes_title_alias">[Alias]: </string>
+    <string name="prompt_install_aa_data">
+        Please install [Adora AA Data] version 1.1.2 or above first so that I can serve you with required data.
+	    (To save main device space, version 1.1.0 and above is designed as data separated to the data application.) 
+    </string>
+    <string name="symptom_hint">(Search Acupoint by symptom)</string>
+    <string name="symptom_label">Symptom: </string>
+    <style name="contentText">
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">#FFFFFF</item>   <!-- White -->
+  </style>
+    <style name="labelText">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">#FF8040</item>   <!-- Orange -->
+  </style>
+    <style name="titleText">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">#C53A3A</item>   <!-- China Red -->
+  </style>
+</resources>

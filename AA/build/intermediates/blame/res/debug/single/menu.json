@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\menu\\global_web.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\menu\\global_web.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\menu\\credits.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\menu\\credits.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\menu\\relax.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\menu\\relax.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\menu\\acupoint.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\menu\\acupoint.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\menu\\global_picture.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\menu\\global_picture.xml"
+    }
+]

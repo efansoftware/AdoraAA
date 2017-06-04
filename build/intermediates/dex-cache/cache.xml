@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\eFANSoftware\AndroidApps\AA\AA\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81b4e8d27afb6bb66266776812b2d65a3fd6691d">
+        <dex dex="C:\eFANSoftware\AndroidApps\AA\AA\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6986820cb52bfe207c9c25a3a756df22bc783fcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\eFANSoftware\AndroidApps\AA\AA\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\eFANSoftware\AndroidApps\AA\AA\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d1934c2b1cd050eb0906a6013a20c10368783506\classes.dex" />
+    </item>
+
+</items>

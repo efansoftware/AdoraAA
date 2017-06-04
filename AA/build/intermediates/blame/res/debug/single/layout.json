@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\global_web.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\global_web.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\global_gallery.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\global_gallery.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\acupoint_detail_edit.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\acupoint_detail_edit.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_aa.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\welcome_aa.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\acupoint_detail.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\acupoint_detail.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\rest_gallery.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\rest_gallery.xml"
+    },
+    {
+        "merged": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\build\\intermediates\\res\\merged\\debug\\layout\\credits.xml",
+        "source": "C:\\eFANSoftware\\AndroidApps\\AA\\AA\\src\\main\\res\\layout\\credits.xml"
+    }
+]
